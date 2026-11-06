@@ -1,0 +1,9 @@
+<p>login works!</p>
+
+<label>Enter Name : </label>
+<input type="text" [formField]="loginForm.username" /><br />
+
+<label>Enter Password: </label>
+<input type="password" [formField]="loginForm.password" /><br />
+
+<button type="button" (click)="loginUser()">Login</button>
